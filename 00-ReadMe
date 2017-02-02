@@ -1,0 +1,27 @@
+Lambda-Mini-Bootcamp
+
+This is for my work on the LambdaSchool 
+http://lambdaschool.com/mini-bootcamp
+
+
+ **quick location**
+cd ~/Dropbox/00-git/06-lambda
+
+01 -Create folder on PC, and create a ReadMe file on that folder 
+
+02 -Create a new repository on GitHub.com
+
+03 -Open Terminal then CD .. to the folder previusly created and execute following commands:
+		$ git init
+		$ git add *
+		$ git remote add origin https://github.com/Edxael/JS-Small-Projects.git
+
+04 -Create new folder with files, make changes, when ready to push. 
+		$ git status
+		$ git add*
+		$ git commit -m "mesage"
+		$ git push origin master
+		// provide Username & Password. 
+ 
+
+Now youcan see all files on the GitHub.com  online repository. 
