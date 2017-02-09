@@ -48,7 +48,20 @@ print("")
 #   Extra Credit
 # ------------------------------
 
-url = "https://lambdaschool.com/contact"
-files = {"Edxael contacting lambdaschool"}
-w = requests.post(url, files=files)
-w.text
+# url = "https://lambdaschool.com/contact"
+# files = {"Edxael contacting lambdaschool"}
+# w = requests.post(url, files=files)
+# w.text
+
+import requests
+
+contact_info = {
+    "email": "zerphyr.r@gmail.com",
+    "lastname": "Rubio",
+    "message": "Hello this is the Extra-Credit",
+    "name": "Edmundo"
+}
+
+r = requests.post("https://lambdaschool.com/contact-form", json = contact_info)
+
+print("response: %s status code: %s" % (r.text, r.status_code))
