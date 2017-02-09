@@ -40,7 +40,7 @@ w = requests.get("https://www.google.com/")
 print(w)
 print("")
 
-# print(w.text)
+print(w.text)
 print("")
 
 
