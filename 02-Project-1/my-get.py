@@ -48,11 +48,6 @@ print("")
 #   Extra Credit
 # ------------------------------
 
-# url = "https://lambdaschool.com/contact"
-# files = {"Edxael contacting lambdaschool"}
-# w = requests.post(url, files=files)
-# w.text
-
 import requests
 
 contact_info = {
